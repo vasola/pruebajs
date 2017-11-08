@@ -1,0 +1,161 @@
+/* --- HEADER --- */
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 999;}
+nav{
+    box-shadow: 0 0 5px 0;
+    background-color:white
+}
+
+ul a:hover{
+    color: mediumpurple;
+}
+
+ul a{
+    color: gray;
+    font-weight: bold;
+  
+}
+
+ul li{
+    margin-left: 20px;
+}
+
+ul li:first-child{
+    margin-left: 0;    
+}
+
+i.fa.fa-twitter.twitter{
+    margin: 0 220px;
+    font-size: 1.5em;
+    color: dodgerblue
+}
+
+input.form-control{
+    border-radius: 50px;
+    margin: 0 10px
+}
+button.btn{
+    background-color: mediumpurple;
+    color: white;
+    font-weight: bold;
+    border-radius:100px;
+    padding: 5px 20px
+}
+
+
+
+/* COLUMNAS */
+
+.down{
+    padding-top: 100px;}
+
+.info{
+    position: absolute;
+    }
+
+.bg{
+    width: 90%;
+    z-index: 1;
+    float: left;
+    z-index: -999;}
+
+.white{
+    float: left;
+    border: 1px solid black;
+    width: 90%;
+    height: 200px;
+    background-color: white;
+}
+
+.img-perfil{
+    position: relative
+}
+
+.perfil{
+    width: 20%;
+    z-index: 1;
+    border: 3px solid white;
+    margin-top: 200px;
+    margin-left: 20px;
+   }
+
+form.tweet{
+    position: relative;
+    margin-top: 200px;
+
+}
+
+.white h1{
+    padding-left: 120px;
+    font-size: 1.3em;
+    text-align: left;
+    color: black;
+}
+
+.white h2{
+    padding-left: 120px;
+    font-size: 1.2em;
+    text-align: left;
+    color: grey;
+    font-weight:400}
+
+.white h3{
+    font-size: .8em;
+    text-align: center;
+}
+
+.white h4{
+    text-align: center;
+    font-size: 1.4em;
+    color: mediumpurple;
+}
+
+.white h1, .white h3, .white h4{
+    font-weight: bold
+}
+
+
+/* --- TWEET --- */
+
+textarea{
+    width: 90%;
+    height: 200px;
+    resize: none;
+    float: left;
+    border: 3px solid mediumpurple;
+    border-radius: 30px;
+    padding: 10px;}
+    
+
+.icons{
+    float: left;
+    width: 50%;
+    margin: 10px 20px 0 20px;
+    font-size: 1.2em;
+    
+    }
+
+.icons a{
+    color: mediumpurple;
+}
+
+.icons a:hover{
+    color: grey
+}
+.icons a{
+    padding-top: 10px;
+    padding-right: 20px
+}
+
+.btn-tweet{
+    margin: 10px 0 0 50px}
+
+.rojo{
+    background-color: red;
+    height: 1000px}
+
+
+
