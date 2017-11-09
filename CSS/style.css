@@ -1,3 +1,9 @@
+/* ALL */
+
+body{
+    background-color: #eff5f9!important
+}
+
 /* --- HEADER --- */
 
 header{
@@ -64,7 +70,6 @@ button.btn{
 
 .white{
     float: left;
-    border: 1px solid black;
     width: 90%;
     height: 200px;
     background-color: white;
@@ -103,7 +108,7 @@ form.tweet{
     font-weight:400}
 
 .white h3{
-    font-size: .8em;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -153,9 +158,38 @@ textarea{
 .btn-tweet{
     margin: 10px 0 0 50px}
 
-.rojo{
-    background-color: red;
-    height: 1000px}
 
+/*ejercicio de prueba*/
 
+.note{
+   
+    background-color: white;
+    height: auto;
+    width: 100%;
+    border:1px solid #c6cdd1
+    }
 
+.note:hover{
+    background-color: #c6cdd1
+    }
+
+.note img{
+    width: 10%;
+    border-radius: 50%;
+    float: left;
+    margin: 5px 20px 5px 10px}
+
+.note h5{
+    padding-top:10px;
+    font-size: 1.3em}
+
+.note span{
+    font-size: .8em;
+    color: gray}
+
+.note a i{
+    margin: 0 40px 20px;
+    color: mediumpurple;}
+
+.note a i.fa-heart-o:hover{
+    color: red}

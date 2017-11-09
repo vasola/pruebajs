@@ -2,11 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>MiniTwitter</title>
+    <title>Mini Twitter</title>
+    <!-- FAVICON -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!-- FONTAWESOME -->
     <script src="https://use.fontawesome.com/cf680f79d8.js"></script>
 </head>
 <body>
@@ -59,20 +62,31 @@
           <div class="img-perfil">
               <img src="images/perfil.jpg" alt="" class="perfil img-responsive img-circle">
           </div>
-            <form class="tweet">
-            <textarea name="Tweet"> ¿Qué está pasando?</textarea>
+            <form class="tweet" id="tweet">
+            <textarea id="myform" name="Tweet" maxlength="140" placeholder="¿Qué está pasando?"></textarea>
             <div class="icons">
                 <a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
             </div>
-            <button class="btn btn-tweet">Enviar</button>         
+            <button type="submit" class="btn btn-tweet" id="submit">Enviar</button>         
             </form>          
         </div>
         <!-- FIN COLUMNA IZQUIERDA -->
         <!-- INICIO COLUMNA DERECHA -->
-        <div class="col-md-7 rojo">
-            
+        <div class="col-md-7">
+            <!--
+             <div class="note">
+               <img src="images/perfil.jpg" alt="">
+                <h5>titulo twitter <span>@hola</span></h5>
+                <p>kjdbkjnsajkdbash</p>
+                <a href=""><i class="fa fa-comment-o" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-retweet" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+             </div> -->
+
         </div>
         <!-- FIN COLUMNA DERECHA -->
     </div>
@@ -80,7 +94,8 @@
 <!-- FIN CONTAINER -->
 
 
-
-<script src="JS/javascript.js"></script>    
+<!-- SCRIPTS -->
+<script src="JS/javascript.js"></script> 
+<script src="JS/jquery-3.2.1.js"></script>   
 </body>
 </html>
