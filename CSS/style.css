@@ -218,7 +218,7 @@ textarea{
 
 @media (min-width:720px) and (max-width:1024px){    
     i.fa.fa-twitter.twitter{
-    margin: 0 50px;
+    margin: 0 40px;
     font-size: 1.5em;
     color: dodgerblue
 }
