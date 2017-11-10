@@ -156,7 +156,8 @@ textarea{
 }
 
 .btn-tweet{
-    margin: 10px 0 0 50px}
+    margin: 10px 0 0 50px
+}
 
 
 /*ejercicio de prueba*/
@@ -177,7 +178,8 @@ textarea{
     width: 10%;
     border-radius: 50%;
     float: left;
-    margin: 20px 20px 5px 10px}
+    margin: 20px 20px 5px 10px
+}
 
 .note h5{
     padding-top:10px;
@@ -187,11 +189,69 @@ textarea{
 
 .note span{
     font-size: .8em;
-    color: gray}
+    color: gray
+}
 
 .note a i{
     margin: 0 40px 20px;
-    color: mediumpurple;}
+    color: mediumpurple;
+}
 
 .note a i.fa-heart-o:hover{
-    color: red}
+    font-weight: bolder
+}
+
+
+/* --- MEDIA QUERIES ---*/
+
+@media (min-width:320px) and (max-width: 720px){
+    .img-perfil img{
+        margin-top: 200px;
+        } 
+    
+    .img-perfil{
+       padding:8px 0 0 0
+    }
+    
+    form.tweet{
+        margin-top: 400px;}
+    }
+
+@media (min-width:720px) and (max-width:1024px){
+    .img-perfil img{
+        margin: 0px 270px;
+    }  
+    
+    .img-perfil{
+        padding-top: 300px
+    }
+
+    
+    h1{
+        width:100%;
+        margin-left: 160px;
+        margin-top: 100px;
+        }
+    h2{
+        margin-left: 180px
+        }
+    .white{
+        height:300px}
+    
+    form{
+        padding-top: 150px;
+        }
+    
+    input{
+        padding: 0;
+        margin: 0;
+        width: 80%;
+        }
+    
+    .icons{
+        margin-left:280px }
+    
+    .note{
+        margin-top: 150px;}
+}
+
